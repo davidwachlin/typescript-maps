@@ -85133,7 +85133,8 @@ Object.defineProperty(exports, "__esModule", {
 
 var User_1 = require("./User");
 
-console.log(User_1.User);
+var user = new User_1.User();
+console.log(user);
 },{"./User":"src/User.ts"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
